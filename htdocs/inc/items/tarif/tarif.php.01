@@ -1,0 +1,510 @@
+<?php
+
+$k = "layerzero";
+//$mas[$k][ico2][hot] = 1;
+$mas[$k][aid] = 4;
+$mas[$k][need_buy] = 1;
+$mas[$k][need_detail] = 1;
+
+
+//$mas[$k][flag] = "Testing";
+$mas[$k][flag] = "Super HOT";
+//$mas[$k][type] = "tape-soon";
+$mas[$k][type] = "live";
+//$mas[$k][type] = "tape-soon";
+$mas[$k][title] = "LayerZero";
+$mas[$k][ico] = "layerzero.png";
+//$mas[$k]["3ds"] = 1;
+//$mas[$k][txt] = "LayerZero is an Omnichain communication protocol designed to simplify message passing across chains.<br><i>>>This script is from a third party team</i>";
+$mas[$k][txt] = "LayerZero is an Omnichain communication protocol designed to simplify message passing across chains.";
+//$mas[$k][txt2] = "LayerZero is a blockchain infrastructure protocol that aims to improve the performance, scalability, and usability of decentralized applications. It is developed by a team of experienced developers and engineers, including former members of the Ethereum Foundation, and is designed to be compatible with the Ethereum Virtual Machine (EVM) and the Solidity programming language. The LayerZero protocol provides a number of features that improve the performance and scalability of decentralized applications, including: high-performance consensus, advanced smart contract execution, decentralized storage, improved usability.";
+$mas[$k][txt2] = "<i>This script was developed by the third party developers team. As an AirdropHunter (the “Platform”), we are not responsible for the operation of the script and all the actions it takes, please act according to your own research while using our service.</i><br><br>LayerZero is a blockchain infrastructure protocol that aims to improve the performance, scalability, and usability of decentralized applications. It is developed by a team of experienced developers and engineers, including former members of the Ethereum Foundation, and is designed to be compatible with the Ethereum Virtual Machine (EVM) and the Solidity programming language. The LayerZero protocol provides a number of features that improve the performance and scalability of decentralized applications, including: high-performance consensus, advanced smart contract execution, decentralized storage, improved usability.";
+//$mas[$k][btn] = "RnD (Research and Development)";
+$mas[$k][btn] = "Coming soon";
+//$mas[$k][btn_clas] = "btn-rnd";
+//$mas[$k][btn_link] = "https://docs.google.com/forms/d/e/1FAIpQLScNQg3Z4bxtx1a1XQbv4ObkXVK2uDPN6Kr59o6sitbB2qXgcQ/viewform?usp=send_form";
+$mas[$k][btn_comments] = "Choose a suitable tarif and click the button";
+
+
+$mas[$k][cost] = "$500 - $5000";
+$mas[$k][prob] = "78 %";
+
+
+
+$k2 = 23;
+$mas[$k][tarif][$k2][name] = "5 accounts";
+$mas[$k][tarif][$k2][cost] = "150";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "10 accounts";
+$mas[$k][tarif][$k2][cost] = "300";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "15 accounts";
+$mas[$k][tarif][$k2][cost] = "450";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "20 accounts";
+$mas[$k][tarif][$k2][cost] = "600";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "25 accounts";
+$mas[$k][tarif][$k2][cost] = "750";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "30 accounts";
+$mas[$k][tarif][$k2][cost] = "900";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k = "zksync";
+//$mas[$k][ico2][best_buy] = 1;
+$mas[$k][aid] = 1;
+$mas[$k][need_buy] = 1;
+$mas[$k][need_detail] = 1;
+$mas[$k][flag] = "Best SALE";
+$mas[$k][type] = "Live";
+$mas[$k][title] = "zkSync";
+$mas[$k][ico] = "zksync_arrow2.png";
+$mas[$k][txt] = "Is a non-custodial (OTC) crypto wallet that allow you receive, store and send cryptocurrency asset.";
+//$mas[$k][txt2] = "Metamask Wallet exists as an extension for the Google Chrome browser family and as a smartphone application. Today the extension has more than 10 million users worldwide. The wallet deserves the attention of the audience because of the rapid development of the decentralized finance (DeFi) sphere, as it is one of the most convenient and universal tools for accessing decentralized applications (DApps). For example, it is supported by such industry giants as UniSwap, PanCakeSwap and DeFi aggregator 1inch.";
+$mas[$k][txt2] = "zkSync Era is a Layer 2 zkEVM designed to scale blockchains. With zkSync Era, EVM projects can easily take advantage of high-speed, low-cost transactions with the same security guarantees as Ethereum.  zkSync Lite is a user-centric zk rollup platform from Matter Labs. It is a scaling solution for Ethereum, already live on Ethereum mainnet. It supports payments, token swaps and NFT minting.";
+
+$mas[$k][cost] = "$500 - $5000";
+$mas[$k][prob] = "73 %";
+$mas[$k][btn_comments] = "Choose a suitable tarif and click the button";
+
+
+$k2 = 6;
+$mas[$k][tarif][$k2][name] 	= "5 accounts";
+$mas[$k][tarif][$k2][cost] 	= "150";
+//$mas[$k][tarif][$k2][badge_txt] 	= "(time limited)";
+//$mas[$k][tarif][$k2][badge_type] 	= "badge-warning";
+
+//$mas[$k][tarif][$k2][circle] 	= "250";
+
+$k2 = 1;
+$mas[$k][tarif][$k2][name] 	= "10 accounts";
+$mas[$k][tarif][$k2][cost] 	= "300";
+//$mas[$k][tarif][$k2][circle] 	= "250";
+
+$k2++;
+$mas[$k][tarif][$k2][name] 	= "15 accounts";
+$mas[$k][tarif][$k2][cost] 	= "450";
+//$mas[$k][tarif][$k2][circle] 	= "500";
+$k2++;
+$mas[$k][tarif][$k2][name] 	= "20 accounts";
+$mas[$k][tarif][$k2][cost] 	= "600";
+
+$k2++;
+$mas[$k][tarif][$k2][name] 	= "25 accounts";
+$mas[$k][tarif][$k2][cost] 	= "750";
+
+$k2++;
+$mas[$k][tarif][$k2][name] 	= "30 accounts";
+$mas[$k][tarif][$k2][cost] 	= "900";
+
+
+/*
+$k2++;
+$mas[$k][tarif][$k2][name] 	= "50 accounts";
+$mas[$k][tarif][$k2][cost]	= "1000";
+$mas[$k][tarif][$k2][circle] 	= "750";
+
+$k2++;
+$mas[$k][tarif][$k2][name] 	= "100 accounts";
+$mas[$k][tarif][$k2][cost] 	= "1500";
+$mas[$k][tarif][$k2][circle] 	= "1000";
+*/
+$k = "metamask";
+$mas[$k][aid] = 2;
+$mas[$k][need_buy] = 1;
+$mas[$k][need_detail] = 1;
+$mas[$k][btn] = "Coming soon";
+
+$mas[$k][flag] = "Live";
+$mas[$k][type] = "tape-soon";
+$mas[$k][type] = "Live";
+//$mas[$k][type] = "tape-soon";
+$mas[$k][title] = "Metamask";
+$mas[$k][ico] = "metamask.svg";
+$mas[$k][txt] = "Is a non-custodial crypto wallet that allow you receive, store and send cryptocurrency asset.";
+$mas[$k][txt2] = "Metamask crypto wallet is a non–custodial crypto wallet that allows you to receive, store and send cryptocurrency assets. The Metamask wallet exists as a browser extension for the Google Chrome and a mobile application. Today, the extension has more than 10 million users worldwide. The wallet has earned the attention of the audience due to the rapid development of the field of decentralized finance (DeFi) because it is one of the most convenient and universal tools for accessing decentralized applications (dApps). For example, it is supported by such industry giants as UniSwap, PanCakeSwap and the DeFi aggregator 1inch.";
+//$mas[$k][btn] = "RnD (Research and Development)";
+//$mas[$k][btn] = "Submit your Script";
+//$mas[$k][btn_clas] = "btn-rnd";
+//$mas[$k][btn_link] = "https://docs.google.com/forms/d/e/1FAIpQLScNQg3Z4bxtx1a1XQbv4ObkXVK2uDPN6Kr59o6sitbB2qXgcQ/viewform?usp=send_form";
+$mas[$k][btn_comments] = "Choose a suitable tarif and click the button";
+
+$mas[$k][cost] = "$500 - $5000";
+$mas[$k][prob] = "83 %";
+
+
+$k2 = 15;
+$mas[$k][tarif][$k2][name] = "5 accounts";
+$mas[$k][tarif][$k2][cost] = "150";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2 = 9;
+$mas[$k][tarif][$k2][name] = "10 accounts";
+$mas[$k][tarif][$k2][cost] = "300";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "20 accounts";
+$mas[$k][tarif][$k2][cost] = "600";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "30 accounts";
+$mas[$k][tarif][$k2][cost] = "900";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "40 accounts";
+$mas[$k][tarif][$k2][cost] = "1200";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "50 accounts";
+$mas[$k][tarif][$k2][cost] = "1500";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+/*
+$k2++;
+$mas[$k][tarif][$k2][name] = "100 accounts";
+$mas[$k][tarif][$k2][cost] = "3000";
+$mas[$k][tarif][$k2][circle] 	= "-";
+*/
+
+$k = "scroll";
+$mas[$k][aid] = 3;
+$mas[$k][need_buy] = 1;
+$mas[$k][need_detail] = 1;
+$mas[$k][btn] = "Coming soon";
+
+$mas[$k][flag] = "Testing";
+$mas[$k][flag] = "Live";
+$mas[$k][type] = "type-soon";
+$mas[$k][title] = "Scroll";
+$mas[$k][ico] = "scroll.png";
+$mas[$k][txt] = "is Ethereum's second tier scaling solution that reduces transaction cost and speeds up transfers";
+//$mas[$k][txt2] = "Metamask Wallet exists as an extension for the Google Chrome browser family and as a smartphone application. Today the extension has more than 10 million users worldwide. The wallet deserves the attention of the audience because of the rapid development of the decentralized finance (DeFi) sphere, as it is one of the most convenient and universal tools for accessing decentralized applications (DApps). For example, it is supported by such industry giants as UniSwap, PanCakeSwap and DeFi aggregator 1inch.";
+$mas[$k][txt2] = "Scroll is an Ethereum L2 solution leveraging ZK Rollups. Scroll leverages recent advances in ZK proof efficiency alongside prover hardware acceleration to deliver a secure, scalable execution layer that maximizes compatibility with the Ethereum Virtual Machine (EVM).";
+//$mas[$k][btn] = "Coming Soon";
+$mas[$k][btn_comments] = "Choose a suitable tarif and click the button";
+
+$mas[$k][cost] = "$500 - $5000";
+$mas[$k][prob] = "57 %";
+
+$k2=16;
+
+$mas[$k][tarif][$k2][name] = "5 accounts";
+$mas[$k][tarif][$k2][cost] = "150";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "10 accounts";
+$mas[$k][tarif][$k2][cost] = "300";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "20 accounts";
+$mas[$k][tarif][$k2][cost] = "600";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "30 accounts";
+$mas[$k][tarif][$k2][cost] = "900";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "40 accounts";
+$mas[$k][tarif][$k2][cost] = "1200";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "50 accounts";
+$mas[$k][tarif][$k2][cost] = "1500";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+/*
+$k2++;
+$mas[$k][tarif][$k2][name] = "100 accounts";
+$mas[$k][tarif][$k2][cost] = "3000";
+$mas[$k][tarif][$k2][circle] 	= "-";
+*/
+/*
+$k2++;
+$mas[$k][tarif][$k2][name] = "50 accounts";
+$mas[$k][tarif][$k2][cost] = "1500";
+$mas[$k][tarif][$k2][circle] 	= "-";
+*/
+/*
+$k2++;
+$mas[$k][tarif][$k2][name] = "100 accounts";
+$mas[$k][tarif][$k2][cost] = "3000";
+$mas[$k][tarif][$k2][circle] 	= "-";
+*/
+
+
+
+
+$k2 = 30;
+$k = "starknet";
+
+$mas[$k][aid] = 5;
+//$mas[$k][need_detail] = 1;
+//$mas[$k][need_buy] = 1;
+
+
+$mas[$k][flag] = "Testing";
+$mas[$k][type] = "tape-ended";
+//$mas[$k][type] = "tape-soon";
+$mas[$k][title] = "StarkNet";
+$mas[$k][ico] = "starknet-logo.png";
+$mas[$k][txt] = "Starknet is a decentralized Validity-Rollup (often referred to as ZK-Rollup). It operates as a Layer 2 network over Ethereum.";
+$mas[$k][txt2] = "StarkWare is a blockchain technology company that specializes in developing scalability solutions for decentralized applications. The company was founded in 2018 by a team of experienced researchers and developers, including Eli Ben-Sasson, a professor of computer science at Technion-Israel Institute of Technology and a co-inventor of the Zcash protocol. STARK, which stands for \"Scalable Transparent ARgument of Knowledge.\" The company's products include StarkEx, a layer-2 scaling engine for Ethereum that enables high-speed trading and other complex activities, and StarkNet, a decentralized computation network that allows developers to deploy and run their own smart contracts.";
+//$mas[$k][btn] = "RnD (Research and Development)";
+$mas[$k][btn] = "Coming soon";
+//$mas[$k][btn_clas] = "btn-rnd";
+//$mas[$k][btn_link] = "https://docs.google.com/forms/d/e/1FAIpQLScNQg3Z4bxtx1a1XQbv4ObkXVK2uDPN6Kr59o6sitbB2qXgcQ/viewform?usp=send_form";
+
+$mas[$k][cost] = "$500 - $5 000";
+$mas[$k][prob] = "65 %";
+//$mas[$k][btn_comments] = "If you developer click the button and submit form";
+//$mas[$k][btn_comments] = "Choose a suitable tarif and click the button";
+
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "5 accounts";
+$mas[$k][tarif][$k2][cost] = "150";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "10 accounts";
+$mas[$k][tarif][$k2][cost] = "300";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "15 accounts";
+$mas[$k][tarif][$k2][cost] = "450";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "20 accounts";
+$mas[$k][tarif][$k2][cost] = "600";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "25 accounts";
+$mas[$k][tarif][$k2][cost] = "750";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "30 accounts";
+$mas[$k][tarif][$k2][cost] = "900";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2 = 50;
+$k = "polygonzkevm";
+//$mas[$k][aid] = 7;
+//$mas[$k][need_detail] = 1;
+
+$mas[$k][flag] = "Testing";
+$mas[$k][type] = "tape-ended";
+//$mas[$k][type] = "tape-soon";
+$mas[$k][title] = "Polygon zkEVM";
+$mas[$k][ico] = "polygon-zkevm-logo.png";
+$mas[$k][txt] = "Polygon zkEVM Beta is the leading ZK scaling solution that is equivalent to Ethereum Virtual Machine.";
+$mas[$k][txt2] = "Polygon zkEVM is an open-source ZK-Rollup providing EVM opcode compatibility for a frictionles user experience and the security of Ethereum. It is the first zero-knowledge scaling solution that is fully equivalent to an EVM. All existing smart contracts, developer toolings and wallets work seamlessly. Polygon joined the race of zk protocols and probably will make some airdrop to engage the new and upcoming community.";
+//$mas[$k][btn] = "RnD (Research and Development)";
+//$mas[$k][btn] = "Submit your Script";
+$mas[$k][btn] = "Comig soon";
+//$mas[$k][btn_clas] = "btn-rnd";
+//$mas[$k][btn_link] = "https://docs.google.com/forms/d/e/1FAIpQLScNQg3Z4bxtx1a1XQbv4ObkXVK2uDPN6Kr59o6sitbB2qXgcQ/viewform?usp=send_form";
+
+$mas[$k][cost] = "$500 - $5 000";
+$mas[$k][prob] = "65 %";
+//$mas[$k][btn_comments] = "If you developer click the button and submit form";
+
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "10 accounts";
+$mas[$k][tarif][$k2][cost] = "300";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "15 accounts";
+$mas[$k][tarif][$k2][cost] = "450";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "20 accounts";
+$mas[$k][tarif][$k2][cost] = "600";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "25 accounts";
+$mas[$k][tarif][$k2][cost] = "750";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "30 accounts";
+$mas[$k][tarif][$k2][cost] = "900";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+//$k2++;
+$k2 = 200;
+
+$k = "arbitrum_nova";
+$mas[$k][flag] = "Developing";
+$mas[$k][type] = "tape-ended";
+//$mas[$k][type] = "tape-soon";
+$mas[$k][title] = "Arbitrum Nova";
+$mas[$k][ico] = "arbitrum-nova-logo.png";
+$mas[$k][txt] = "Nova powers dapps with high transaction volumes that seek to drive costs even lower, for Game Developers, Social Projects, Blockchain dApps.";
+$mas[$k][txt2] = "Arbitrum Nova is a layer 2 scaling solution for the Ethereum blockchain that was developed by Offchain Labs. It's designed to offer faster and cheaper transactions by reducing the load on the Ethereum network. The team of Arbitrum One gave for the market the biggets airdrop in web3 history and we expect to see not less from Nova.";
+//$mas[$k][btn] = "RnD (Research and Development)";
+//$mas[$k][btn] = "Submit your Script";
+$mas[$k][btn] = "Comig soon";
+//$mas[$k][btn_clas] = "btn-rnd";
+//$mas[$k][btn_link] = "https://docs.google.com/forms/d/e/1FAIpQLScNQg3Z4bxtx1a1XQbv4ObkXVK2uDPN6Kr59o6sitbB2qXgcQ/viewform?usp=send_form";
+
+$mas[$k][cost] = "$500 - $5 000";
+$mas[$k][prob] = "65 %";
+//$mas[$k][btn_comments] = "If you developer click the button and submit form";
+
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "10 accounts";
+$mas[$k][tarif][$k2][cost] = "300";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "15 accounts";
+$mas[$k][tarif][$k2][cost] = "450";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "20 accounts";
+$mas[$k][tarif][$k2][cost] = "600";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "25 accounts";
+$mas[$k][tarif][$k2][cost] = "750";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "30 accounts";
+$mas[$k][tarif][$k2][cost] = "900";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+
+$k = "aleo";
+$mas[$k][flag] = "Coming soon";
+$mas[$k][type] = "tape-ended";
+//$mas[$k][type] = "tape-soon";
+$mas[$k][title] = "Aleo";
+$mas[$k][ico] = "aleo.svg";
+$mas[$k][txt] = "Aleo is a privacy-focused blockchain platform that aims to enable developers to build decentralized applications (dApps) with strong privacy guarantees. ";
+$mas[$k][txt2] = "Aleo also provides a number of other features to support privacy and security, including decentralized key management, encrypted data storage, and decentralized consensus mechanisms. The platform is designed to be developer-friendly, with a range of tools and resources to help developers build and deploy privacy-focused dApps. They raised $200M in a Series B funding round led by Kora Management LP and SoftBank Vision Fund 2, with participation from Tiger Global, Sea Capital, Slow Ventures, Samsung Next, and Andreessen Horowitz (a16z), culminating in a valuation of the company at $1.45 billion. One of the key features of Aleo is its use of zero-knowledge proofs (ZKPs) to enable confidential transactions and data sharing. ";
+//$mas[$k][btn] = "RnD (Research and Development)";
+$mas[$k][btn] = "Submit your Script";
+//$mas[$k][btn_clas] = "btn-rnd";
+$mas[$k][btn_link] = "https://docs.google.com/forms/d/e/1FAIpQLScNQg3Z4bxtx1a1XQbv4ObkXVK2uDPN6Kr59o6sitbB2qXgcQ/viewform?usp=send_form";
+
+$mas[$k][cost] = "$500 - $5 000";
+$mas[$k][prob] = "90 %";
+$mas[$k][btn_comments] = "If you developer click the button and submit form";
+
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "10 accounts";
+$mas[$k][tarif][$k2][cost] = "300";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "15 accounts";
+$mas[$k][tarif][$k2][cost] = "450";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "20 accounts";
+$mas[$k][tarif][$k2][cost] = "600";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "25 accounts";
+$mas[$k][tarif][$k2][cost] = "750";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "30 accounts";
+$mas[$k][tarif][$k2][cost] = "900";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+
+/*
+$k2++;
+$mas[$k][tarif][$k2][name] = "100 accounts";
+$mas[$k][tarif][$k2][cost] = "$999";
+*/
+
+$k = "venom";
+$mas[$k][flag] = "Coming soon";
+$mas[$k][type] = "tape-ended";
+//$mas[$k][type] = "tape-soon";
+$mas[$k][title] = "Venom";
+$mas[$k][ico] = "venom.jpg";
+$mas[$k][txt] = "Venom is Layer-0 blockchain to power a global ecosystem of Web3 apps.";
+$mas[$k][txt2] = "Venom Blockchain is an asynchronous dynamic sharding blockchain technology that has made an unprecedented global leap in the development of blockchain technology by offering the market limitless scalability and higher security guarantees, 22% of the total supply is allocated to the community and early backers, respectively. Venom Ventures Fund is allocating $1 billion to invest in Web3, blockchain and cryptocurrency projects and services.";
+//$mas[$k][btn] = "RnD (Research and Development)";
+$mas[$k][btn] = "Submit your Script";
+//$mas[$k][btn_clas] = "btn-rnd";
+$mas[$k][btn_link] = "https://docs.google.com/forms/d/e/1FAIpQLScNQg3Z4bxtx1a1XQbv4ObkXVK2uDPN6Kr59o6sitbB2qXgcQ/viewform?usp=send_form";
+$mas[$k]["3ds"] = 1;
+
+
+$mas[$k][cost] = "$500 - $5 000";
+$mas[$k][prob] = "68 %";
+$mas[$k][btn_comments] = "If you developer click the button and submit form";
+
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "10 accounts";
+$mas[$k][tarif][$k2][cost] = "300";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "15 accounts";
+$mas[$k][tarif][$k2][cost] = "450";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "20 accounts";
+$mas[$k][tarif][$k2][cost] = "600";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "25 accounts";
+$mas[$k][tarif][$k2][cost] = "750";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+$k2++;
+$mas[$k][tarif][$k2][name] = "30 accounts";
+$mas[$k][tarif][$k2][cost] = "900";
+$mas[$k][tarif][$k2][circle] 	= "-";
+
+
+$dd = __DIR__;
+$dd = dirname($dd);
+include "$dd/inc/12_blk.php";
+//include "$dd/inc/13_blk_test.php";
+?>

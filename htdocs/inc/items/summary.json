@@ -1,0 +1,86 @@
+{
+    "ZkSync": {
+        "2": {
+            "wallets": 2636,
+            "max_step": "13",
+            "wal_finish": 2554,
+            "txs": "28527",
+            "pers": 0,
+            "pers2": 96.89
+        }
+    },
+    "MetaMask": {
+        "2": {
+            "wallets": 856,
+            "max_step": "13",
+            "wal_finish": 785,
+            "txs": "9906",
+            "pers": 0,
+            "pers2": 91.71
+        }
+    },
+    "Scroll": {
+        "2": {
+            "wallets": 1020,
+            "max_step": "14",
+            "wal_finish": 1019,
+            "txs": "13298",
+            "pers": 0,
+            "pers2": 99.9
+        }
+    },
+    "LayerZero": {
+        "2": {
+            "wallets": 2570,
+            "max_step": "21",
+            "wal_finish": 2369,
+            "txs": "49702",
+            "pers": 0,
+            "pers2": 92.18
+        },
+        "3": {
+            "wallets": 2368,
+            "max_step": "18",
+            "wal_finish": 2266,
+            "txs": "42004",
+            "pers": 0,
+            "pers2": 95.69
+        },
+        "4": {
+            "wallets": 2257,
+            "max_step": "31",
+            "wal_finish": 2092,
+            "txs": "72393",
+            "pers": 0,
+            "pers2": 92.69
+        },
+        "5": {
+            "wallets": 659,
+            "max_step": "11",
+            "wal_finish": 163,
+            "txs": "6696",
+            "pers": 0,
+            "pers2": 24.73
+        }
+    },
+    "Starknet": {
+        "2": {
+            "wallets": 440,
+            "max_step": "13",
+            "wal_finish": 333,
+            "txs": "5194",
+            "pers": 0,
+            "pers2": 75.68
+        }
+    },
+    "PolygonZkEvm": {
+        "2": {
+            "wallets": 510,
+            "max_step": "16",
+            "wal_finish": 330,
+            "txs": "7462",
+            "pers": 0,
+            "pers2": 64.71
+        }
+    }
+}

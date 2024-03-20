@@ -1,0 +1,59 @@
+version: "3.6"
+
+services:
+  php:
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile
+      target: app_php
+    restart: unless-stopped
+    volumes:
+      - php_socket:/var/run/php
+    networks:
+        db_pochtoy:
+
+  database:
+    image: mysql:8.0.34
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      TZ: ${TIMEZONE}
+    restart: unless-stopped
+    command: mysqld --sql_mode=""
+    volumes:
+      - db-data:/var/lib/mysql
+    ports:
+        - 33066:3306
+    networks:
+        db_pochtoy:
+
+  nginx:
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile
+      target: app_nginx
+    depends_on:
+      - php
+    restart: unless-stopped
+    volumes:
+      - php_socket:/var/run/php
+    ports:
+      - ${HTTP_PORT}:80
+      - ${HTTPS_PORT}:443
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - ${PHP_MY_ADMIN_HTTP_PORT}:80
+    environment:
+      PMA_HOSTS: database
+      depends_on: database
+
+volumes:
+  php_socket:
+  db-data:
+
+networks:
+  db_pochtoy:
+    name: db_pochtoy
+    driver: bridge

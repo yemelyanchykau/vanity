@@ -1,0 +1,1 @@
+<button class="btn btn-primary" onclick="clickMeTest()">Click me</button>
